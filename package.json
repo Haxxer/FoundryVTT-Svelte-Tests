@@ -21,7 +21,10 @@
     "eslint": "^8",
     "rollup": "^2"
   },
-  "browserslist": [">5%", "not IE 11"],
+  "browserslist": [
+    ">5%",
+    "not IE 11"
+  ],
   "scripts": {
     "build": "rollup --config",
     "build-watch": "rollup --watch --config",
